@@ -1,0 +1,82 @@
+.text-section
+{
+	border-radius: 20px;
+	border: 2px solid grey;
+	padding: 20px;
+}
+
+.input-section-div textarea
+{
+	border-radius: 20px;
+	border: 5px solid grey;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	outline: none;
+}	
+
+.greet-section h3
+{
+    background: linear-gradient(45deg,cyan,pink,yellow);
+    border-radius: 25px;
+    border: 5px solid blue;
+    box-shadow: 0px 0px 10px green;
+    padding: 5px;
+    width: 400px;
+    margin: auto;
+}
+div .btn
+{
+	border-radius: 20px;
+	box-shadow: 0px 0px solid green;
+}
+@media (max-width:500px)
+{
+ .input-section-div textarea
+	{
+
+		width: 350px;
+	}
+	.text-section .text-section-div #original-text
+	{
+		width: 200px;
+	}
+}
+@media (min-width:501px) and (max-width: 800px)
+{
+ .input-section-div textarea
+	{
+
+		width: 400px;
+	}
+	.text-section .text-section-div #original-text
+	{
+		width: 300px;
+		text-align: center;
+	}
+}
+@media (min-width:801px) and (max-width: 1000px)
+{
+ .input-section-div textarea
+	{
+
+		width: 500px;
+	}
+	.text-section .text-section-div #original-text
+	{
+		width: 600px;
+	}
+}
+@media (min-width:1001px)
+{
+ .input-section-div textarea
+	{
+
+		width: 700px;
+	}
+	.text-section .text-section-div #original-text
+	{
+		width: 600px;
+	}
+}

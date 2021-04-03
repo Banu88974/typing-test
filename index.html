@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing</title>
+	<link rel="stylesheet" type="text/css" href="typingTest.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/mdb.css">
+</head>
+<body>
+	<div class="container mt-5">
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h1 class="h1 text-white text-right">Typing Test</h1>
+				</div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-lg-9 cl-md-12 col-sm-12">
+							<section class="text-section bg-light text-center mt-2" >
+							<div class="text-section-div">
+							<h3 id="original-text">Thanks For Joining MERN Stack</h3>
+							</div>
+							</section>
+							<section class="input-section bg-white text-center mt-4 col-md-9 col-sm-9" onpaste="return false">	
+							<div class="input-section-div">			
+							<textarea cols="60" rows="5" id="text-box"></textarea>
+							</div>
+							</section>
+							<section class="time-section text-center mt-3">	
+								<div class="time-section-div">
+							<span id="minutes" class="h1 text-danger ml-2">00</span><span class="h2 text-primary ml-3">Minutes</span>
+							<span id="seconds" class="h1 text-danger ml-2">00</span><span class="h2 text-primary ml-3">Seconds</span>
+							<span id="milli-seconds" class="h1 text-danger ml-2">00</span><span class="h2 text-primary ml-3">Milli Seconds</span>
+								</div>
+							</section>
+							<section class="reset-section mt-2 text-center">
+								<div class="reset-section-div">
+									<button class="btn btn-warning" id="reset">Reset</button>
+								</div>
+							</section>
+							<section class="greet-section mt-2">
+								<div class="greet-section-div">
+							<h3 class="h1 text-center" style="display: none; color: darkgreen" id="greet">Congratulations!!</h3>
+								</div>
+								<audio id="claps">
+									<source src="claps.wav" type="audio/wav">
+								</audio>
+								</section>
+				
+				
+						</div>
+						<div class="col-2 ml-5 mt-5">
+							<button class="btn btn-danger" onclick="changeText(0)">Lesson 1</button>
+							<button class="btn btn-primary" onclick="changeText(1)">Lesson 2</button>
+							<button class="btn btn-success" onclick="changeText(2)">Lesson 3</button>
+							<button class="btn btn-warning" onclick="changeText(3)">Lesson 4</button>
+							<button class="btn btn-info" onclick="changeText(4)">Lesson 5</button>
+							<button class="btn btn-dark" onclick="changeText(5)">Lesson 6</button>
+							<button class="btn btn-secondary" onclick="changeText(6)">Lesson 7</button>
+				
+						</div>
+					</div>
+			
+				</div>
+				<div class="card-footer bg-dark text-white text-center">
+					<h1 class="h1">CopyRights&copy:2021</h1>
+					<h2>All Rights Are Reserved</h2>
+					<h3>Developed And Maintained By BANUPRAKASH REDDY</h3>
+					
+				</div>
+			</div>
+		</div>
+	</div>	
+<script src="typingTest.js"></script>
+</body>
+</html>
